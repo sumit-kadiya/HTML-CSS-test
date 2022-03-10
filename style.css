@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+}
+.m-container {
+  width: 95vw;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+.m-container header a i {
+  font-size: 20px;
+}
+.m-container header button {
+  border-radius: 50px;
+  background-color: #0004ff;
+  color: #fff;
+}
+.m-container header a h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.m-container header ul li a {
+  font-size: 20px;
+  color: #525252;
+}
+.m-container header ul li a:hover {
+  color: #000000;
+}
+.m-container .bgimage {
+  background: url("https://images.unsplash.com/photo-1564613469739-c78f970f9c17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2047&q=80");
+  height: 500px;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.m-container .main .p-container {
+  width: 800px;
+  height: 500px;
+}
+.m-container .main .p-container .p-txt {
+  color: #fff;
+  text-align: center;
+}
+.m-container .main .p-container .p-box {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.m-container .main .p-container .p-box input {
+  outline: none;
+  border: none;
+}
+.m-container .main .p-container .p-box p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.m-container .main .p-container .p-box .p-box1,
+.m-container .main .p-container .p-box .p-box2,
+.m-container .main .p-container .p-box .p-box3 {
+  border-right: 2px solid rgba(0, 0, 0, 0.308);
+}
+.m-container .main .p-container .p-box button {
+  color: #fff;
+  background-color: #0004ff;
+}
+.cards {
+  margin: 100px 0;
+}
+.cards i {
+  font-size: 36px;
+  color: #0004ff;
+  background-color: rgba(0, 0, 0, 0.055);
+  padding: 10px 20px;
+}
+.feature-card {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.m-container .destinations h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.m-container .destinations .card {
+  background-color: #f5f5f5;
+  border-radius: 25px;
+}
+.m-container .destinations .card img {
+  object-fit: cover;
+  border-radius: 25px;
+}
+.m-container .destinations .d-options {
+  width: 800px;
+}
+.m-container .destinations .d-options a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+.m-container .destinations .d-options .opt {
+  border-bottom: 3px solid #00000036;
+}
+.m-container .destinations .d-options .opt:hover {
+  border-bottom: 3px solid #000000;
+}
+
+.m-container .placecard .card-body {
+  color: #02035a;
+}
+/* blogs */
+.m-container .m-blog h3 {
+  text-align: center;
+  padding: 50px 0;
+  font-weight: 700;
+}
+.m-container .blogs {
+  flex-basis: 45%;
+  height: 480px;
+}
+.m-container .m-blog .blogs p {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.m-container .blogs .b-left {
+  background: url("https://images.unsplash.com/photo-1485160497022-3e09382fb310?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
+  height: 95%;
+  flex-basis: 50%;
+  flex-grow: 1;
+  border-radius: 40px;
+}
+
+.m-container .blogs .b-right {
+  flex-basis: 40%;
+  flex-grow: 1;
+  padding-right: 0;
+}
+.m-container .blogs .b-right .r-up {
+  background: url("https://images.unsplash.com/photo-1437846972679-9e6e537be46e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+  height: 45%;
+  background-position: center;
+  border-radius: 40px;
+}
+.m-container .blogs .b-right .r-down {
+  background: url("https://images.unsplash.com/photo-1503457574462-bd27054394c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  height: 45%;
+  background-position: center;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+/* review */
+.m-container .review {
+  margin: 70px 0;
+}
+.m-container .review h3 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.m-container .review .r-box .rb-left i {
+  font-size: 48px;
+  color: #0004ff59;
+}
+.m-container .review .r-box .rb-left {
+  flex-basis: 45%;
+
+  background-color: #fff;
+}
+.m-container .review .r-box .rb-left .r-left-up {
+  margin-bottom: 50px;
+}
+.m-container .review .r-box .rb-left .r-left-down {
+  padding: 0;
+  margin: 0;
+}
+.m-container .review .r-box .rb-left .r-left-down img {
+  height: 50px;
+  border-radius: 50%;
+}
+/* footer */
+
+.m-container footer {
+  margin-top: 100px;
+  border-radius: 20px;
+  background-color: #0004ff38;
+}
+
+.m-container footer .h-icon a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  margin-right: 20px;
+}
+.m-container footer p,
+.m-container footer ul li a {
+  color: #000000;
+}
